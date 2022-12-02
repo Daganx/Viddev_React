@@ -1,0 +1,70 @@
+.divLogin {
+  margin-top: 65px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 10px;
+  font-family: "Lexend";
+}
+
+.divLogin span {
+  font-size: small;
+  color: #78b4d5;
+}
+
+.loginContainer {
+  border: 2px solid black;
+  height: 60vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://media4.giphy.com/media/XvbIobSKIEnzAfhz1w/giphy.gif?cid=ecf05e47so2afx1hvx3n354rh7bzglnd9f4oo2dfjo9lk2yr&rid=giphy.gif&ct=s);
+  background-position: 20%;
+  background-repeat: repeat-x;
+  background-color: #78b4d5;
+}
+
+.loginTitle {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Lexend";
+  margin-top: 1rem;
+  color: white;
+}
+
+.login {
+  border: 2px solid black;
+  padding-bottom: 3rem;
+  width: 600px;
+  background: gold;
+  font-size: 30px;
+}
+
+.loginTitle input {
+  background-color: lightgray;
+  color: white;
+  border-color: white;
+}
+
+.loginTitle input::placeholder {
+  color: white;
+}
+
+.btnLogin {
+  display: flex;
+  justify-content: center;
+}
+
+.btnLogin button {
+  padding: 1rem 5rem;
+  border: 2px solid white;
+  color: white;
+  background-color: lightgrey;
+  font-size: 20px;
+  font-family: "Lexend";
+}

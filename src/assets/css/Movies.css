@@ -1,0 +1,111 @@
+.articleContainer {
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 80px;
+  padding: 5rem;
+  color: white;
+  font-family: "Lexend";
+}
+
+.articleImage {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.articleMovie h2 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.articleMovie p {
+  color: white;
+}
+
+#root > div > main > article:nth-child(10) > div > h2 {
+  color: black;
+}
+
+#root > div > main > article:nth-child(10) > div > p {
+  color: black;
+}
+
+.year {
+  margin-bottom: 1rem;
+}
+
+.articleMovie img {
+  height: 250px;
+  width: 200px;
+  border: 2px solid white;
+}
+
+.articleMovie img:hover {
+  border-color: gold;
+}
+
+.articleContainer:first-child {
+  background-image: url("https://wallpaperaccess.com/full/5472845.jpg");
+  background-position: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(2) {
+  background-image: url("https://preview.redd.it/6xd2wglkcpw81.jpg?auto=webp&s=26357821ae01ad138b82be5af9f65e8345f964ac");
+  background-position: top;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(3) {
+  background-image: url("https://cinemadroide.files.wordpress.com/2019/12/irishman-cinemadroide-banner.jpg?w=1024");
+  background-position: top;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(4) {
+  background-image: url("https://cdn-www.bluestacks.com/bs-images/godfather_banner.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(5) {
+  background-image: url("https://preview.redd.it/q1mzq51f56ly.jpg?auto=webp&s=cb13892c627011a096ac8798bec25335d903c550");
+  background-position: center;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(6) {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f874b24-f379-4ff2-8747-3b8455e5ed80/d7flgub-87183e64-c3b9-4c4a-9d01-a77b74f79249.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmODc0YjI0LWYzNzktNGZmMi04NzQ3LTNiODQ1NWU1ZWQ4MFwvZDdmbGd1Yi04NzE4M2U2NC1jM2I5LTRjNGEtOWQwMS1hNzdiNzRmNzkyNDkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bQb7apW-DHQVHepVx8fWU9O6Oei04PAvggmxlmqigWI");
+  background-position: center;
+  background-size: contain;
+  background-color: #cb244d;
+  background-repeat: no-repeat;
+}
+
+.articleContainer:nth-child(7) {
+  background-image: url("https://w0.peakpx.com/wallpaper/841/649/HD-wallpaper-it-movie-2019-it-chapter-two-2019-movies-movies-it.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(8) {
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/22/375942-Billy_the_Puppet-Saw-red-bow-tie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.articleContainer:nth-child(9) {
+  background-image: url("https://i.pinimg.com/originals/28/0b/ad/280bad27925651ab5a217a042eabfe07.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #112210;
+}
+
+.articleContainer:nth-child(10) {
+  background-image: url("https://images6.alphacoders.com/802/802787.jpg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,100 @@
+.tvShowsContainer {
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 80px;
+  padding: 5rem;
+  color: white;
+  font-family: "Lexend";
+}
+
+.tvShowsImage {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.articleTvShows h2 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.articleTvShows p {
+  color: white;
+  font-family: "LexendBold";
+  font-size: 20px;
+}
+
+.articleTvShows img {
+  height: 250px;
+  width: 200px;
+  border: 2px solid white;
+}
+
+.articleTvShows img:hover {
+  border-color: gold;
+}
+
+.year {
+  margin-bottom: 1rem;
+}
+
+.tvShowsContainer:first-child {
+  background-image: url("https://w0.peakpx.com/wallpaper/204/26/HD-wallpaper-breaking-bad-breakingbad-film.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fdd928;
+}
+
+.tvShowsContainer:nth-child(2) {
+  background-image: url("https://fr.web.img5.acsta.net/newsv7/21/04/26/15/06/3476641.jpg");
+  background-position: top;
+}
+
+.tvShowsContainer:nth-child(3) {
+  background-image: url("https://preview.redd.it/orhip8r1i1s41.jpg?auto=webp&s=b6887b0d74bd8ea9db372270a9ff0f45690f0f94");
+  background-position: center;
+  background-size: cover;
+}
+
+.tvShowsContainer:nth-child(4) {
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2022/06/08/rick-n-morty-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.tvShowsContainer:nth-child(5) {
+  background-image: url("https://images4.alphacoders.com/119/1192524.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.tvShowsContainer:nth-child(6) {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/693/637/168/death-note-yagami-light-manga-anime-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+.tvShowsContainer:nth-child(7) {
+  background-image: url("https://occ-0-1433-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQkofIypds_rD7yInykgr059MHPbl0gpMiFZ4mgL5Vuu2JRxvs-7fzdvN97DD0Ir2126xeFWMucX9IZJVmH33Hv1WfUJ4GB86SVY.jpg?r=72c");
+}
+
+.tvShowsContainer:nth-child(8) {
+  background-image: url("https://images2.alphacoders.com/100/thumb-1920-1003880.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.tvShowsContainer:nth-child(9) {
+  background-image: url("https://images6.alphacoders.com/542/542776.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tvShowsContainer:nth-child(10) {
+  background-image: url("https://www.virginradio.fr/wp-content/uploads/virginradio/2022/03/media-673.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

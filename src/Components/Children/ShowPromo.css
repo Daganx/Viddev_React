@@ -1,0 +1,68 @@
+.ShowPromo_Title {
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 6px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.ShowPromo h2 {
+  font-family: "Lexend";
+  font-size: 20px;
+  margin-left: 3rem;
+  text-transform: uppercase;
+}
+
+.title_span {
+  font-size: small;
+  color: #78b4d5;
+}
+
+.ShowPromo_Second {
+  display: flex;
+}
+
+.FirstSquare {
+  border: 2px solid black;
+  width: 50%;
+  height: 60vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-image: url(../../assets/img/fSociety.png);
+  background-position: 10%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.FirstSquare_text {
+  font-family: "MrRobot";
+  width: 50%;
+  text-align: center;
+}
+
+.MrRobot_title {
+  font-size: 50px;
+  color: #78b4d5;
+}
+
+.FirstSquare_info {
+  margin-top: 2rem;
+}
+
+.FirstSquare_info p {
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.SecondSquare {
+  border: 2px solid black;
+  width: 50%;
+  height: 60vh;
+  margin-top: 10px;
+  margin-right: 6px;
+  margin-left: 5px;
+}

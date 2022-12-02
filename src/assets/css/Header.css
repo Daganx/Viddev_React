@@ -1,0 +1,60 @@
+/*  CSS DE MON HEADER  */
+
+header{
+    font-family: 'Lexend';
+    text-transform: uppercase;  
+    padding-bottom: 10px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navigation{
+    border: 2px solid black;
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 6px;
+    background-color: white;
+}
+#navigation a{
+    color: black;
+}
+
+#logoNav{
+    width: 50px;
+    background-color: #78B4D5;
+    background-image: url(../img/VID_DEV.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+#websiteName{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+#linksNav{
+    width: 100%;
+}
+
+#linksNav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#linksNav li{
+    border-left: 2px solid black;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#linksNav li:hover{
+    background-color: #78B4D5;
+}
+

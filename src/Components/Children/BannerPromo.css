@@ -1,0 +1,83 @@
+.BannerPromo {
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 6px;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.BannerContainer {
+  background-image: url(https://www.studioghibli.fr/wp-content/uploads/2009/07/spirited_away1-1024x638.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.BannerPromo h2 {
+  font-family: "Lexend";
+  color: white;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  font-size: 70px;
+}
+
+.BannerPromo h2:hover {
+  color: #78b4d5;
+  cursor: pointer;
+}
+
+.BannerGenre {
+  display: flex;
+  gap: 20px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 230px;
+  color: white;
+  font-family: "Lexend";
+  text-transform: uppercase;
+}
+
+.BannerGenre p {
+  background-color: #78b4d5;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.BannerText {
+  font-family: "Lexend";
+  padding-left: 2rem;
+  color: white;
+  width: 400px;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.modal{
+  background-color: black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.modalBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.modalBody iframe{
+  width: 1000px;
+  height: 400px;
+}
+
+.modalClose{
+  border: 2px solid #78b4d5;
+  color: #78b4d5;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+

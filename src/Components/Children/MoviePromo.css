@@ -1,0 +1,123 @@
+.ShowMovie_Title {
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-right: 6px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.ShowMovie h2 {
+  font-family: "Lexend";
+  font-size: 20px;
+  margin-left: 3rem;
+  text-transform: uppercase;
+}
+
+.ShowMovie_Second {
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 6px;
+  height: 60vh;
+  display: flex;
+}
+
+.FirstSquare_Movie {
+  border: 2px solid black;
+  height: 90%;
+  width: 25%;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  background-image: url("https://ih1.redbubble.net/image.2249882800.7682/st,small,845x845-pad,1000x1000,f8f8f8.jpg");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.FirstSquare_Movie p {
+  margin-top: 0.5rem;
+  font-family: "Lexend";
+}
+
+.FirstSquare_Movie p:first-child {
+  color: gold;
+  font-size: larger;
+  font-family: "LexendBold";
+}
+
+.SecondSquare_Movie {
+  border: 2px solid black;
+  height: 90%;
+  width: 25%;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15081ebe-a86a-4d6b-9fc9-23d9d799b1a1/dfeyn8o-b64a1128-5915-41f2-9bf3-997dfdb2ec39.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1MDgxZWJlLWE4NmEtNGQ2Yi05ZmM5LTIzZDlkNzk5YjFhMVwvZGZleW44by1iNjRhMTEyOC01OTE1LTQxZjItOWJmMy05OTdkZmRiMmVjMzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vsF31pJrDjOkb6SHn7gnAs9IYCXj5_iYS2fCKFUYKoM");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-color: #78b4d5;
+}
+
+.SecondSquare_Movie p {
+  margin: 0.5rem;
+  font-family: "Lexend";
+}
+
+.SecondSquare_Movie p:first-child {
+  color: black;
+  font-size: larger;
+  font-family: "LexendBold";
+}
+
+.ThirdSquare_Movie {
+  border: 2px solid black;
+  height: 90%;
+  width: 25%;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  background-image: url(../../assets/img/Creed.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  text-align: center;
+  background-color: gold;
+}
+
+.ThirdSquare_Movie p {
+  margin: 0.5rem;
+  font-family: "Lexend";
+}
+
+.ThirdSquare_Movie p:first-child {
+  color: #78b4d5;
+  font-size: larger;
+  font-family: "LexendBold";
+}
+
+.FourthSquare_Movie {
+  border: 2px solid black;
+  height: 90%;
+  width: 25%;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-image: url(../../assets/img/IndianaJones.png);
+  background-position: bottom;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #78b4d5;
+}
+.FourthSquare_Movie p:first-child {
+  color: gold;
+  font-size: larger;
+  font-family: "LexendBold";
+}
+
+.FourthSquare_Movie p {
+  margin-top: 0.5rem;
+  font-family: "Lexend";
+}

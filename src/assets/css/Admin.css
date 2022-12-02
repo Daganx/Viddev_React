@@ -1,0 +1,18 @@
+table {
+  border: 2px solid black;
+  margin-left: 50px;
+}
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.usersList {
+  margin-top: 100px;
+  margin-left: 50px;
+}
